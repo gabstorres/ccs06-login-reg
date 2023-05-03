@@ -35,5 +35,11 @@ if (isset($_SESSION['is_logged_in'])) {
 		</button>	
 	</div>
 </form>
-</body>
+<form action="register.php" method="POST">
+	<div>
+		<button>
+			Register
+		</button>
+	</div>	
+	</body>
 </html>
